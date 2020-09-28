@@ -1,0 +1,92 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 22px;
+}
+
+h1{
+    font-size: 175%; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.container{
+    width: 100%;
+}
+
+.menu-item{
+    width: 33%;
+    /* height: 210px; */
+    background-color: darkgrey;
+    border: 2px solid black;
+    float: left;
+    margin: 1.5%;
+    padding: 10px;
+    position: relative;
+}
+
+h3{
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 120px;
+    text-align: center;
+    font-size: 125%;
+    position: absolute; right: 0px; top: 0px;
+
+}
+.title1{
+    background-color: darkorchid;
+}
+
+.title2{
+    background-color: darkseagreen;
+}
+
+.title3{
+    background-color: dodgerblue;
+}
+
+p{
+    /* position: absolute; top: 35px; */
+    padding-top: 30px;
+}
+
+@media (max-width: 767px){
+    .dev1, .dev2, .dev3{
+        width: 90%;
+    }
+    
+
+
+}
+
+@media (min-width: 992px){
+    .dev1, .dev2, .dev3{
+        width: 30%;
+    }
+    
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .dev1, .dev2{
+        width: 45%;
+    }
+    
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    
+    .dev3{
+        width: 93%;
+    }
+
+
+}
+
